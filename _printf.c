@@ -45,6 +45,7 @@ int _printf(const char *format, ...)
 		}
 	}
 
+<<<<<<< HEAD
 	print_buffer(buffer, &buff_ind);
 
 	va_end(list);
@@ -63,4 +64,8 @@ void print_buffer(char buffer[], int *buff_ind)
 		write(1, &buffer[0], *buff_ind);
 
 	*buff_ind = 0;
+=======
+	return (count);
+
+>>>>>>> 1ea76643cac5674cc52b6462c958e4775f43b2f4
 }
